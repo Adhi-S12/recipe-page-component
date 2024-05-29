@@ -83,7 +83,7 @@ body {
 }
 
 .recipe-container {
-  max-width: 900px;
+  max-width: 750px;
   background-color: var(--white);
   margin-inline: auto;
 }
@@ -216,7 +216,7 @@ tr:last-of-type {
   }
   .recipe-header {
     overflow: hidden;
-    padding: 10px;
+    padding: 25px;
     border-radius: 32px;
   }
   .recipe-title {
@@ -225,5 +225,8 @@ tr:last-of-type {
   }
   .recipe-description {
     font-size: 18px;
+  }
+  .recipe-wrapper {
+    padding: 20px 50px;
   }
 }
